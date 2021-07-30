@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@workspace/compositions/feature-state-management/features/features-form": [
+        "libs/compositions/feature-state-management/features/features-form/src/index.ts"
+      ],
+      "@workspace/compositions/feature-state-management/features/features-list/all-features": [
+        "libs/compositions/feature-state-management/features/features-list/all-features/src/index.ts"
+      ],
+      "@workspace/compositions/feature-state-management/features/features-list/my-features": [
+        "libs/compositions/feature-state-management/features/features-list/my-features/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

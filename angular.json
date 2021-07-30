@@ -1,6 +1,87 @@
 {
   "version": 1,
   "projects": {
+    "compositions-feature-state-management-features-features-form": {
+      "projectType": "library",
+      "root": "libs/compositions/feature-state-management/features/features-form",
+      "sourceRoot": "libs/compositions/feature-state-management/features/features-form/src",
+      "prefix": "workspace",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/compositions/feature-state-management/features/features-form"
+          ],
+          "options": {
+            "jestConfig": "libs/compositions/feature-state-management/features/features-form/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/compositions/feature-state-management/features/features-form/src/**/*.ts",
+              "libs/compositions/feature-state-management/features/features-form/src/**/*.html"
+            ]
+          }
+        }
+      }
+    },
+    "compositions-feature-state-management-features-features-list-all-features": {
+      "projectType": "library",
+      "root": "libs/compositions/feature-state-management/features/features-list/all-features",
+      "sourceRoot": "libs/compositions/feature-state-management/features/features-list/all-features/src",
+      "prefix": "workspace",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/compositions/feature-state-management/features/features-list/all-features"
+          ],
+          "options": {
+            "jestConfig": "libs/compositions/feature-state-management/features/features-list/all-features/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/compositions/feature-state-management/features/features-list/all-features/src/**/*.ts",
+              "libs/compositions/feature-state-management/features/features-list/all-features/src/**/*.html"
+            ]
+          }
+        }
+      }
+    },
+    "compositions-feature-state-management-features-features-list-my-features": {
+      "projectType": "library",
+      "root": "libs/compositions/feature-state-management/features/features-list/my-features",
+      "sourceRoot": "libs/compositions/feature-state-management/features/features-list/my-features/src",
+      "prefix": "workspace",
+      "architect": {
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/compositions/feature-state-management/features/features-list/my-features"
+          ],
+          "options": {
+            "jestConfig": "libs/compositions/feature-state-management/features/features-list/my-features/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/compositions/feature-state-management/features/features-list/my-features/src/**/*.ts",
+              "libs/compositions/feature-state-management/features/features-list/my-features/src/**/*.html"
+            ]
+          }
+        }
+      }
+    },
     "shell": {
       "projectType": "application",
       "root": "apps/shell",

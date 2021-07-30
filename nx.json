@@ -19,8 +19,17 @@
     }
   },
   "projects": {
+    "compositions-feature-state-management-features-features-form": {
+      "tags": ["type:composition","composition:feature-state-management-features-features-form"]
+    },
+    "compositions-feature-state-management-features-features-list-all-features": {
+      "tags": [ "type:composition","feature-state-management-features-features-list-all-features"]
+    },
+    "compositions-feature-state-management-features-features-list-my-features": {
+      "tags": ["type:composition","composition:feature-state-management-features-features-list-my-features"]
+    },
     "shell": {
-      "tags": []
+      "tags": ["type:app"]
     },
     "shell-e2e": {
       "tags": [],
